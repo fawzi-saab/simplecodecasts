@@ -11,6 +11,8 @@ gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.3.13', group: [:development, :test]
 # Use postgresql as the database for production
+gem 'bootstrap-sass', '~> 3.3.1'
+#use bootstap library for styles
 group :production do
   gem 'pg'
   gem 'rails_12factor'
