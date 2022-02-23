@@ -15,6 +15,7 @@ gem 'bootstrap-sass', '~> 3.3.1'
 #use bootstap library for styles
 gem 'font-awesome-sass', '~> 4.2.0'
 #use font awesom library for icons
+gem 'devise'
 group :production do
   gem 'pg'
   gem 'rails_12factor'
