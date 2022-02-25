@@ -29,7 +29,7 @@
               <%= button_to "Sign out", destroy_user_session_path, class: "btn btn-primary navbar-btn", method: :delete %> <!--no need to add method -->
             <% else %>
               <%= link_to "Log in", new_user_session_path, class: "btn btn-primary navbar-btn", method: :get %>
-              <%= link_to "Sign up", new_user_registration_path, class: "btn btn-success navbar-btn", method: :get %>
+              
             <% end%>
           </div>
           <ul class="nav navbar-nav navbar-right">
