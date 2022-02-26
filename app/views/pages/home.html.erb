@@ -1,3 +1,6 @@
+
+  <%= link_to "create your profile", new_user_profile_path(current_user) if current_user%>  <!--we can use current_user since devise gem gives it to us-->
+
 <div class="jumbotron text-center">
     <h1>Welcome to Dev Match</h1>
     <h3>A membership site where entrepreneurs can meet developers.</h3>
