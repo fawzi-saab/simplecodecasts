@@ -16,8 +16,13 @@ gem 'bootstrap-sass', '~> 3.3.1'
 gem 'font-awesome-sass', '~> 4.2.0'
 #use font awesom library for icons
 gem 'devise'
+#use devise for user logins
 gem 'stripe'
+#use stripe to handle payments
 gem 'figaro'
+#use figaro to hide secret keys
+gem 'paperclip'
+#use paperclip for image uploads
 group :production do
   gem 'pg'
   gem 'rails_12factor'
