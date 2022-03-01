@@ -1,0 +1,36 @@
+.job-title-icon {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #2e6da4;
+    display: inline-block;
+    border-radius: 4px;
+    background-color:#204d74;
+    color: white;
+    text-align: center;
+}
+.content {
+    color: #fff;
+     h3 {
+        margin-top: 0;                               /*we can use nested css since we are using scss(saas) */
+    }
+}
+
+.well.profile-description{
+    
+    background-color: #28a745;
+    border-color: #28a745;
+    
+}
+.well.contact-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    
+}
+.user-image img{
+    border-radius: 50%;
+    width: 225px;
+    height: 225px;
+box-shadow: 5px 13px 5px -6px rgba(5,1,1,0.75);
+-webkit-box-shadow: 5px 13px 5px -6px rgba(5,1,1,0.75);
+-moz-box-shadow: 5px 13px 5px -6px rgba(5,1,1,0.75);
+ }
