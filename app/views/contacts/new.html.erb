@@ -1,21 +1,26 @@
 <div class="row">
     <%= form_for @contact do |f| %>
-        <div class="col-md-4 col-md-offset-4 well">
-            <div class="form-group">
-                <%= f.label :name %>
-                <%= f.text_field :name, class:"form-control" %>
-            </div>
-            
-            <div class="form-group">
-                <%= f.label :email %>
-                <%= f.email_field :email,  class:"form-control"%>
-            </div>
-            
-            <div class="form-group">
-                <%= f.label :comments %>
-                <%= f.text_area :comments , class:"form-control"%>
-            </div>
-           <%= f.submit "submit", class:"btn btn-default"%>
+        <div class="col-md-4 col-md-offset-4">
+            <h1 class="text-center">Contact Us</h1>
+            <P class="text-center">Reach out if you have any question or comment.</P>
+            <div class="well">
+                <div class="form-group">
+                    <%= f.label :name %>
+                    <%= f.text_field :name, class:"form-control" %>
+                </div>
+                
+                <div class="form-group">
+                    <%= f.label :email %>
+                    <%= f.email_field :email,  class:"form-control"%>
+                </div>
+                
+                <div class="form-group">
+                    <%= f.label :comments %>
+                    <%= f.text_area :comments , class:"form-control"%>
+                </div>
+               <%= f.submit "submit", class:"btn btn-default"%>
+                </div>
+           
        </div>
    
     <% end %>
