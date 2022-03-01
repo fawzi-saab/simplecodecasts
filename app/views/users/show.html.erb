@@ -1,3 +1,4 @@
+<%= image_tag @profile.avatar.url(:thumb) %>
 <%= @profile.first_name %> <%= @profile.last_name %> <br>
 <%= @profile.job_title %><br>
 <% if current_user.plan_id ==2 %>
