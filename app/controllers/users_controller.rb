@@ -4,4 +4,8 @@ class UsersController < ApplicationController
         @user = User.find(params[:id])
         @profile = @user.profile
     end
+    
+    def index
+        
+    end
 end
