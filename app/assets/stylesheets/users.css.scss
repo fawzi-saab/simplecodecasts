@@ -30,7 +30,12 @@
     border-radius: 50%;
     width: 225px;
     height: 225px;
-box-shadow: 5px 13px 5px -6px rgba(5,1,1,0.75);
--webkit-box-shadow: 5px 13px 5px -6px rgba(5,1,1,0.75);
--moz-box-shadow: 5px 13px 5px -6px rgba(5,1,1,0.75);
+    box-shadow: 5px 13px 5px -6px rgba(5,1,1,0.75);
+    -webkit-box-shadow: 5px 13px 5px -6px rgba(5,1,1,0.75);
+    -moz-box-shadow: 5px 13px 5px -6px rgba(5,1,1,0.75);
+ }
+ 
+ /* users index page styles */
+ .well.white-bg {
+     background-color: white;
  }
